@@ -1,0 +1,204 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features{
+    text-align: center;
+}
+
+#features img{
+    margin: 0 0 20px;
+}
+
+#features p{
+    font-family: Pristina;
+    font-size: 20px;
+}
+
+/* --------------------------------------
+  Well
+   -------------------------------------- */
+
+#bigCallout h1{
+    color: #333333;
+    font-family: Impact, Charcoal, sans-serif;
+    text-shadow: 0 10px 10px red;
+}
+
+#moreInfo h3{
+    text-decoration: underline;
+    font-family: ‘Arial Black’, Gadget, sans-serif;
+    margin-bottom: 10px;
+}
+
+
+#bigCallout p{
+    color: #333333;
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+}
+
+   /* --------------------------------------
+     Jumbotron
+      -------------------------------------- */
+.jumbotron{
+
+    background-color: #e3e3e3;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    background:  url('../../images/digital-art-21.png') top center no-repeat;
+    margin-bottom: 10px;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500%;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+.well .page-header{
+    margin-top: 0px;
+}
+
+
+/* --------------------------------------
+   alert
+   -------------------------------------- */
+.alert{
+    margin-top: 20px;
+    display:none;
+}
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{
+       width:200px;
+
+   }
+   .navbar-brand{
+       padding: 13px 15px;
+   }
+
+   /* --------------------------------------
+      Tab Contnt
+      -------------------------------------- */
+
+.embed-responsive embed-responsive-4by3{
+    margin: 0px;
+}
+   /* --------------------------------------
+      Tab Contnt
+      -------------------------------------- */
+      .tab-content p{
+          margin-top: 10px;
+          text-align: justify;
+      }
+
+      .tabbable img.thumbnail{
+          margin: 0 20px 10px 0;
+      }
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel{
+    margin-top: 60px;
+}
+
+.carousel-caption{
+    font-size: 20px;
+    color: black;
+}
+
+#myCarousel .item { height: 400px; }
+#slide1 {
+    background: url('../../images/MedMongli.jpg') top center no-repeat;
+}
+
+#slide2 {
+    background: url('../../images/bird_Med.jpg') top center no-repeat;
+
+}
+#slide3 {
+    background: url('../../images/MedGirl.jpg') top center no-repeat;
+
+}
+/* --------------------------------------
+   Footer Styles
+   -------------------------------------- */
+   footer{
+       color: #eee;
+       font-size: 11px;;
+       background-color: #333;
+       padding: 20px;
+   }
+
+   ul.unstyled{
+       list-style: none;
+       padding:0;
+   }
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+#myCarousel .item { height: 310px; }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+    #myCarousel .item { height: 310px; }
+    #slide1 {
+        background: url('../../images/SmallMongli.jpg') top center no-repeat;
+    }
+    #slide2 {
+        background: url('../../images/bird_Small.jpg') top center no-repeat;
+    }
+    #slide3 {
+        background: url('../../images/SmallGirl.jpg') top center no-repeat;
+    }
+
+
+}
+
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+    #myCarousel .item { height: 500px; }
+    #slide1 {
+        background: url('../../images/LargeMongli.jpg') top center no-repeat;
+    }
+    #slide2 {
+        background: url('../../images/bird_Large.jpg') top center no-repeat;
+    }
+    #slide3 {
+        background: url('../../images/LargeGirl.jpg') top center no-repeat;
+    }
+
+
+}

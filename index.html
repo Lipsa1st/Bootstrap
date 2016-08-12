@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title></title>
+	<meta name="description" content="">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="includes/css/styles.css" rel="stylesheet">
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+	<div class="container" id="main">
+		<div class="navbar navbar-fixed-top">
+			<div class="container">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/"><img src="images/DigiLogo.png" alt="Your Logo"></a>
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Web Design</a>
+								</li>
+								<li>
+									<a href="#">Web Development</a>
+								</li>
+								<li>
+									<a href="#">SEO</a>
+								</li>
+								<li class="divider"></li>
+								<li class="dropdown-header">More Services</li>
+								<li>
+									<a href="#">Content Creation</a>
+								</li>
+								<li>
+									<a href="#">Social Marketing</a>
+								</li>
+							</ul><!---end dropdown-menu--->
+						</li><!---end dropdown--->
+					</ul><!---end nav navbar-nav--->
+
+					<form class="navbar-form pull-left">
+						<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+						<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+					</form><!--end navbar-form-->
+
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-cog"></span> Settings</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-magnet"></span> Update Profile</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-usd"></span> Billing</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+								</li>
+							</ul><!---end dropdown-menu-->
+						</li><!---end dropdown-->
+					</ul><!---end nav-->
+				</div><!---end nav-collapse--->
+			</div><!---end container--->
+		</div><!-- end navbar -->
+
+		<div class="carousel slide" id="myCarousel">
+			<!--Indicators-->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+			<!---wrapper for slides--->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+					<div  class="carousel-caption">
+						<h4><i>**The Impact of Digital Technology**</i></h4>
+						<p>More generally the term digital artist is used to describe an artist who makes use of digital technologies in the production of art</p>
+					</div><!---end carousel-caption-->
+				</div><!--end item--->
+
+				<div class="item" id="slide2">
+					<div  class="carousel-caption">
+						<h4><i>**Digital art - Presentation Process**</i></h4>
+						<p>Digital paintings uses software on a computer platform and digitally outputting the resulting image as painted on canvas</p>
+					</div><!---end carousel-caption-->
+				</div><!--end item--->
+
+				<div class="item" id="slide3">
+					<div  class="carousel-caption">
+						<h4> <i>**Desktop Publishing - Huge impact on the publishing world**</i></h4>
+						<p>The techniques of digital art are used extensively by the mainstream media in advertisements</p>
+					</div><!---end carousel-caption-->
+				</div><!--end item--->
+			</div><!---end carousel-inner--->
+
+			<!--Controls--->
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+		</div><!-- end myCarousel -->
+
+		<div class="jumbotron">
+			
+		</div>
+
+		<div class="row" id="bigCallout">
+			<div class="col-12">
+				<div class="alert alert-success alert-block fade in" id="successAlert">
+					<button type="button" class="close" data-hide="alert">&times;</button>
+					<h4>You have successfully logged in...</h4>
+					<p>Enjoy reading Digital Art Article. Have a great day. </p>
+				</div>
+				<div class="well well-small visible-sm">
+					<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span>  Give us a call!</a>
+				</div>
+				<div class="well">
+					<div class="page-header">
+						<h1>Importance Of Digital Art   <small>world of TRANSFORMATION</small></h1>
+					</div>
+					<p class="lead">
+						Digital art is an artistic work or practice that uses digital technology as an essential part of the creative or presentation process. Since the 1970s, various names have been used to describe the process including computer art and multimedia art, and digital art is itself placed under the larger umbrella term new media art
+					</p>
+					<button type="button" class="btn btn-large	btn-primary" id="alertMe">Click Me!</button>
+					<a href="" class="btn btn-medium btn-link">Know more about Digital Art</a>
+				</div><!-- end well -->
+			</div><!-- end col-12 -->
+		</div><!-- end row -->
+
+		<div class="row" id="features">
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3>How to Succeed as a Freelance Illustrator</h3>
+					</div><!-- end panel-heading -->
+					<img src="images\3d-digital-art.jpg" alt="HTML 5" class=img-circle>
+					<p>- with advice from illustrators Ana Jaks and the AOI’s Derek Brazell.</p>
+					<a href="/" class="btn btn-warning btn-block">Orange Button</a>
+				</div><!-- end panel -->
+			</div><!-- end col-sm-4 -->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3>Best Drawing Materials for Artists</h3>
+					</div><!-- end panel-heading -->
+					<img src="images\730d69aa679c29f1b1777c0375e51eba.png" alt="Digital art" class="img-circle">
+					<p>Discover the best pencils for artists – whatever your drawing style.</p>
+					<a href="/" class="btn btn-info btn-block">Blue Button</a>
+				</div><!-- end panel -->
+			</div><!-- end col-sm-4 -->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3>Best of the Grad Shows 2016: D & AD New Blood</h3>
+					</div><!-- end panel-heading -->
+					<img src="images\computer_digital_art_04_809.jpg" alt="digital art" class="img-circle">
+					<p>10 brilliant illustrators and designers we spotted at the UK's top graduate show.</p>
+					<a href="/" class="btn btn-success btn-block">Green Button</a>
+				</div><!-- end panel -->
+			</div><!-- end col-sm-4 -->
+		</div><!-- end row -->
+
+		<div class="row" id="moreInfo">
+			<div class="col-lg-6">
+				<h3>Scope for Digital Art</h3>
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+						<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<h4><span class="glyphicon glyphicon-map-marker"></span>Our Location<small> Creativity Hub</small></h4>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.5522432066!2d77.49085168762889!3d12.954294600022711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C+Karnataka+560001!5e0!3m2!1sen!2sin!4v1470160955761" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<p>This type of installation is generally site-specific, scalable, and without fixed dimensionality, meaning it can be reconfigured to accommodate different presentation spaces.
+								Noah Wardrip-Fruin's "Screen" (2003) is an example of digital installation art which makes use of a Cave Automatic Virtual Environment to create an interactive experience. </p>
+								<!-- 4:3 aspect ratio -->
+								<div class="embed-responsive embed-responsive-4by3">
+									<nav aria-label="Page navigation">
+										<ul class="pagination">
+											<li>
+												<a href="#" aria-label="Previous">
+													<span aria-hidden="true">&laquo;</span>
+												</a>
+											</li>
+											<li><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">4</a></li>
+											<li><a href="#">5</a></li>
+											<li>
+												<a href="#" aria-label="Next">
+													<span aria-hidden="true">&raquo;</span>
+												</a>
+											</li>
+										</ul>
+									</nav>
+								</div><!-- end embed-responsive -->
+							</div><!-- end tab-pane -->
+
+							<div class="tab-pane" id="tab2">
+								<h4>Image using Thumbnail<small> Using Placehold.it</small></h4>
+								<img src="images/thomas_ripley_step_by_step_by_mr_ripley-d4h8y2z.jpg" class="thumbnail pull-left">
+								<p>Digital installation art constitutes a broad field of activity and incorporates many forms. Some resemble video installations, particularly large scale works involving projections and live video capture. By using projection techniques that enhance an audiences impression of sensory envelopment, many digital installations attempt to create immersive environments. Others go even further and attempt to facilitate a complete immersion in virtual realms. </p>
+								<p>This type of installation is generally site-specific, scalable, and without fixed dimensionality, meaning it can be reconfigured to accommodate different presentation spaces.
+									Noah Wardrip-Fruin's "Screen" (2003) is an example of digital installation art which makes use of a Cave Automatic Virtual Environment to create an interactive experience. </p>
+									<hr>
+									<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Click for a modal window</a>
+									<div class="modal fade" id="myModal">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button class="close" data-dismiss="modal">&times;</button>
+													<h2>Enter Your Details<h2>
+													</div><!-- end modal-header -->
+													<div class="modal-body">
+														<form>Name&nbsp;&nbsp; &nbsp; &nbsp;<input type="text" name="name" placeholder="Enter name"><br/><br/>
+															Email ID&nbsp;&nbsp; &nbsp; &nbsp;<input type="text" name="email" placeholder="Enter Email ID"><br/><br/>
+															Office Address&nbsp;&nbsp; &nbsp; &nbsp;<input type="text" name="email" placeholder="Enter Office Address"><br/><br/>
+															Home Address&nbsp;&nbsp; &nbsp; &nbsp;<input type="text" name="address" placeholder="Enter Home Address"><br/><br/>
+															Contact No.&nbsp;&nbsp; &nbsp; &nbsp;<input type="text" name="Phno" placeholder="Enter contact no."><br/><br/>
+															<input type="button" name="OK" value="Click Here">
+														<form>
+															</div><!-- end modal-body -->
+														</div><!-- end modal-content -->
+													</div><!-- end modal-dialog -->
+												</div><!-- end modal-fade -->
+											</div><!-- end tab-pane -->
+										</div><!-- end tab-content -->
+									</div><!-- end tabbable -->
+								</div><!-- end col-lg-6 -->
+
+								<div class="col-lg-6">
+									<div class="rows">
+										<a href="#" class="thumbnail">
+											<img src="images/logo-artrift.jpg" alt="HTML5">
+										</a>
+									</div><!-- end rows -->
+									<div class="rows">
+										<a href="#" class="thumbnail">
+											<img src="images\head11.jpg" alt="HTML5">
+										</a>
+									</div><!-- end rows -->
+									<div class="rows">
+										<a href="#" class="thumbnail">
+											<img src="images\logo-design-logo-logos-company-logos-141.jpg" alt="HTML5">
+										</a>
+									</div><!-- end rows -->
+								</div><!-- end col-lg-6 -->
+							</div><!-- end rows -->
+						</div><!-- end container -->
+						<hr>
+
+						<footer>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-2">
+										<h6>Copyright &copy; 2016 <i>  Lipsa Dash</i></h6>
+									</div><!-- col-sm-2 -->
+									<div class="col-sm-4">
+										<h6>About Us</h6>
+										<p>Adam Phillips was a featured artist at the Adobe Design Center for the month of December 2006.[1] The alternate soundtrack for the YuYu in that link was composed by Lee Miller.</p>
+									</div><!-- col-sm-2 -->
+									<div class="col-sm-2">
+										<h6>Navigation</h6>
+										<ul class="unstyled">
+											<li><a href="#">Home</a><li>
+												<li><a href="#">Services</a><li>
+													<li><a href="#">Links</a><li>
+														<li><a href="#">Contacts</a><li>
+														</ul>
+													</div><!-- end col-sm-2 -->
+
+													<div class="col-sm-2">
+														<h6>Follow Us&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-envelope"></span></h6>
+														<ul class="myUl unstyled">
+															<li><a href="#">Facebook</a><li>
+																<li><a href="#">Twitter</a><li>
+																	<li><a href="#">PInterest</a><li>
+																		<li><a href="#">Youtube</a><li>
+																		</ul>
+																	</div><!-- end col-sm-2 -->
+																	<div class="col-sm-2">
+																		<h6>Coded with&nbsp;&nbsp;<span class="glyphicon glyphicon-heart"></span></h6>
+																	</div><!-- end col-sm-2 -->
+																</div><!-- end rows -->
+															</div><!-- end container -->
+														</footer><!-- end Footer -->
+
+														<!-- First try for the online version of jQuery-->
+														<script src="http://code.jquery.com/jquery.js"></script>
+
+														<!-- If no online access, fallback to our hardcoded version of jQuery -->
+														<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+														<!-- Bootstrap JS -->
+														<script src="bootstrap/js/bootstrap.min.js"></script>
+
+														<!-- Custom JS -->
+														<script src="includes/js/script.js"></script>
+													</body>
+													</html>
